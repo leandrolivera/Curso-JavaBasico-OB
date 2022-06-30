@@ -1,7 +1,6 @@
 package com.leandroolivera;
-
-import java.io.IOException;
 import java.util.Scanner;
+
 
 /**
  * @author Leandro Olivera
@@ -19,19 +18,19 @@ import java.util.Scanner;
 
 public class CalculoDeIVA {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
 
 
         System.out.println("Ingrese el valor al que aplicaremos IVA:");
         Scanner scanner = new Scanner(System.in);
         double precio = scanner.nextDouble();
         System.out.println("El IVA es de 21% y el resultado con el precio ingresado es de: ");
-        System.out.println(calculoDeIVA(precio));
+        System.out.println("$ "+calculoDeIVA(precio));
     }
 
     private static double calculoDeIVA(double precio) {
         double iva = 0.21d;
-        return precio+iva;
+        return precio+(iva*precio);
     }
 
 }
