@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * @author Leandro Olivera
  * Java Básico - Open Bootcamp
- * Tema 1 - Ejercicio 2
+ * Tema 2 - Ejercicio 1
  * Para este ejercicio tendréis que crear una función que reciba un precio y devuelva el precio con el IVA incluido.
  *
  * IVA en Argentina:
