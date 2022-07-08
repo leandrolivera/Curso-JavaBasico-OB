@@ -1,4 +1,4 @@
-package com.leandroolivera;
+package com.leandroolivera.Tema3_Ejercicio1;
 import java.util.Scanner;
 
 

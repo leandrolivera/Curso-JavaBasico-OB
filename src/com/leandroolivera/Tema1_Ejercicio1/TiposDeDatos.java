@@ -1,4 +1,4 @@
-package com.leandroolivera;
+package com.leandroolivera.Tema1_Ejercicio1;
 
 /**
  * @author Leandro Olivera
