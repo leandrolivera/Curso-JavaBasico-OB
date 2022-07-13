@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module type="java_module" version="4">
+  <component name="newmodulerootmanager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$module_dir$">
+      <sourcefolder url="file://$module_dir$/src" istestsource="false" />
+    </content>
+    <orderentry type="inheritedjdk" />
+    <orderentry type="sourcefolder" fortests="false" />
+  </component>
+</module>
