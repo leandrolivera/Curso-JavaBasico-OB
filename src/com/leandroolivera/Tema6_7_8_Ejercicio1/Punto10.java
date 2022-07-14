@@ -114,7 +114,7 @@ public class Punto10 {
     private static void ficheroArrayList(byte[] datos) throws IOException{
 
         try {
-            PrintStream fileOut = new PrintStream("myFileCopyInverted.txt");
+            PrintStream fileOut = new PrintStream("myFileCopyArrayList.txt");
             ArrayList<Character> letterList = new ArrayList<>(5000);
             for (byte dato : datos) {
                 char letter = (char) dato;
